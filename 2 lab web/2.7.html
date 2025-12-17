@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Task 2.7</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+    <style>
+    .container1{
+        background-color: #8A2BE2;
+        color: white;
+        padding: 0;
+        margin: 10px 0 0 10px;
+        width: 200px;
+        height: 150px;
+        text-align: left;
+    }
+
+
+    .container2 {
+        background-color: #8B0000;
+        color: white;
+        padding: 0;
+        margin: 0 0 0 10px;
+        width: 200px;
+        height: 150px;
+        text-align: left;
+        position: relative;
+    }
+
+    .container3 {
+        background-color: #CD853F;
+        color: white;
+        padding: 0;
+        margin: 0 0 0 10px;
+        width: 200px;
+        height: 150px;
+        text-align: left;
+        position: relative;
+        top: -40px;
+        left: 30px;
+    }
+
+    .container4 {
+        background-color: #CD5C5C;
+        color: white;
+        margin: 20px 0 0 10px;
+        width: 600px;
+        height: 350px;
+        text-align: left;
+        position: relative;
+        top: -40px;
+    }
+
+    .container5 {
+        background-color: #4B0082;
+        color: white;
+        padding: 0;
+        margin: 0 0 0 10px;
+        width: 280px;
+        height: 150px;
+        text-align: left;
+        position: relative;
+        float: right;
+        transform: translateY(80%);
+    }
+
+    .container6 {
+        background-color: #228B22;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        width: 80px;
+        height: 120px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container1">It's a static div!</div>
+    <div class="container2">It's a relative div!</div>
+    <div class="container3">It's a relative div!</div>
+    <div class="container4">It's a relative div!
+        <div class="container5">It's an absolute div with relative parent!</div></div>
+    <div class="container6">
+        a fixed div!
+    </div>
+</body>
+</html>
